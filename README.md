@@ -5,14 +5,14 @@ http://ai.stanford.edu/~jkrause/cars/car_dataset.html
 
 Does pretty well, >97% on validation and test sets.   
 
-Tech: \n
-AWS p2.xlarge ubuntu linux instance (GPU support) /n
-cuda/cudnn
-Python/Numpy
-Python virtual environment.  
-Keras
-TensorFlow
-OpenCV
+Tech:  
+AWS p2.xlarge ubuntu linux instance (GPU support)  
+cuda/cudnn  
+Python/Numpy  
+Python virtual environment.   
+Keras  
+TensorFlow  
+OpenCV  
 
 Setting up a computing instance on Amazon was a pain in the ass.  I'll highlight the steps here.  
 

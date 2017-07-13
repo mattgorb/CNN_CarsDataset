@@ -24,9 +24,10 @@ Setting up a computing instance on Amazon was a pain.  I'll highlight the steps 
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/storage_expand_partition.html
 
 4.  Download CUDA and CUDNN for nvidia GPU support.  
-CUDA install command:
-sudo apt install nvidia-cuda-toolkit
-Link for CUDNN:  https://developer.nvidia.com/rdp/cudnn-download
+CUDA install command:  
+sudo apt install nvidia-cuda-toolkit  
+Link for CUDNN:  
+https://developer.nvidia.com/rdp/cudnn-download
 
 5.  Download python on ec2 instance and figure out how to setup a python virtual environment.  Google it.
 

@@ -35,7 +35,7 @@ https://developer.nvidia.com/rdp/cudnn-download
 
 7.  Download required python libraries such as numpy.  
   
-8.  OpenCV: sudo apt-get install python-opencv.  You might 
+8.  OpenCV: sudo apt-get install python-opencv.  I had some issues getting open CV working, but I googled error and found a good script to run to correct the problem.
 
 9.  Download tensor flow.  I'm using pip.  Then configure keras to use the tensorflow backend.  I tried for a half of a day to get Theano backend working with GPU support and failed miserably.  TF pip link: 
 https://www.tensorflow.org/versions/r0.11/get_started/os_setup#pip_installation

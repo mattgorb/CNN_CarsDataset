@@ -1,26 +1,28 @@
 
 
-Car classification.  Fine-tuned InceptionV3 convolutional neural network based on this dataset:
+Car classification.  
+
+For this project I fine-tuned the InceptionV3 convolutional neural network based on this dataset:
 http://ai.stanford.edu/~jkrause/cars/car_dataset.html
 
-Does pretty well, >97% on validation and test sets.   
+I have it performing at >96% for both the validation and test sets.     
 
 Tech:  
 AWS p2.xlarge ubuntu linux instance (GPU support)  
-cuda/cudnn  
+CUDA/CUDNN 
 Python/Numpy  
-Python virtual environment.   
+Python virtual environment
 Keras  
 TensorFlow  
 OpenCV  
 
-Setting up a computing instance on Amazon was a pain.  I'll highlight the steps here.  
+Setting up a computing instance on AWS was a pain.  I'll highlight the steps here.  
 
 1.  Request P2.xlarge instance on aws.  You have to write a message to customer support and they'll usually get you approved within a business day.  
 
-2.  Create a new Ubuntu instance on ec2 console.  
+2.  Create a new Ubuntu p2.xlarge instance on ec2 console.  
 
-3.  You'll probably want to extend your partition, especially if you want to hold training data and various ML tech on here.  Link for that-
+3.  You'll probably want to extend your partition, especially if you want to hold training data and various ML tech on here.  Link for that-  
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/storage_expand_partition.html
 
 4.  Download CUDA and CUDNN for nvidia GPU support.  

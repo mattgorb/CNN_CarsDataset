@@ -1,4 +1,4 @@
-# CNN_CarsDataset
+
 
 Car classification.  Fine-tuned InceptionV3 convolutional neural network based on this dataset:
 http://ai.stanford.edu/~jkrause/cars/car_dataset.html
@@ -6,9 +6,7 @@ http://ai.stanford.edu/~jkrause/cars/car_dataset.html
 Does pretty well, >97% on validation and test sets.   
 
 Tech: 
-
 AWS p2.xlarge ubuntu linux instance (GPU support)
-
 cuda/cudnn
 Python/Numpy
 Python virtual environment.  

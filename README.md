@@ -16,7 +16,7 @@ Keras
 TensorFlow  
 OpenCV  
 
-Setting up a computing instance on AWS was a pain.  I'll highlight the steps here.  
+Setting up a computing instance on AWS was a pain.  Some of these had various problems I had to google, I'll just right down the simple version here:   
 
 1.  Request P2.xlarge instance on aws.  You have to write a message to customer support and they'll usually get you approved within a business day.  
 

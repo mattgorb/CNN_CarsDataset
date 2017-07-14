@@ -11,7 +11,7 @@ Tech:
 AWS p2.xlarge ubuntu linux instance (GPU support)  
 CUDA/CUDNN 
 Python/Numpy  
-Python virtual environment
+Python virtual environment  
 Keras  
 TensorFlow  
 OpenCV  
